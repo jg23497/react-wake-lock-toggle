@@ -1,5 +1,7 @@
 # react-wake-lock-toggle ☀️
 
+[![Node.js CI](https://github.com/jg23497/react-wake-lock-toggle/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/jg23497/react-wake-lock-toggle/actions/workflows/node.js.yml)
+
 A toggle slider React component that utilises the [Wake Lock API](https://developer.mozilla.org/en-US/docs/Web/API/Wake_Lock_API) to prevent the screen from dimming or locking. This can be useful for applications where continuous screen visibility is
 important, such as presentations, reading interfaces, or interactive displays.
 
