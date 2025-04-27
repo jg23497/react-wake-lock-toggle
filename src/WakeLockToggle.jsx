@@ -1,7 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 
-import "./style.css";
-
 const WakeLockToggle = ({ label }) => {
   const [wakeLockSupported, setWakeLockSupported] = useState(false);
   const [isChecked, setIsChecked] = useState(false);

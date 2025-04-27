@@ -25,7 +25,9 @@ Import the WakeLock component into your React application and use it like any ot
 
 ```jsx
 import React from "react";
+
 import WakeLockToggle from "@jgulan/react-wake-lock-toggle";
+import '@jgulan/react-wake-lock-toggle/dist/style.css';
 
 function App() {
   return (
