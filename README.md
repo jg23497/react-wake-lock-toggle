@@ -71,3 +71,7 @@ For example, using the [`dir` global attribute](https://developer.mozilla.org/en
 
 The Wake Lock API is a relatively new feature and may not be supported by older browsers. If the feature is not supported, the
 component will not render. You can check the current browser compatibility on [Caniuse.com](https://caniuse.com/mdn-api_wakelock).
+
+## License
+
+ISC (see [LICENSE](./LICENSE)).
