@@ -16,7 +16,7 @@ important, such as presentations, reading interfaces, or interactive displays.
 You can install `react-wake-lock-toggle` using npm:
 
 ```bash
-npm install react-wake-lock-toggle
+npm install @jgulan/react-wake-lock-toggle
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ Import the WakeLock component into your React application and use it like any ot
 
 ```jsx
 import React from "react";
-import WakeLockToggle from "react-wake-lock-toggle";
+import WakeLockToggle from "@jgulan/react-wake-lock-toggle";
 
 function App() {
   return (
