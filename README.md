@@ -11,6 +11,12 @@ important, such as presentations, reading interfaces, or interactive displays.
 ![Light mode - on](doc/images/light-off.png)
 ![Light mode - off](doc/images/light-on.png)
 
+## Features
+
+* Lightweight with minimal dependencies.
+* Accessible (tested with screenreaders, usable via the keyboard).
+* Plug and play — preconfigured and styled.
+
 ## Installation
 
 You can install `react-wake-lock-toggle` using npm:
