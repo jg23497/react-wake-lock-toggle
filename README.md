@@ -65,7 +65,7 @@ For example, using the [`dir` global attribute](https://developer.mozilla.org/en
 </div>
 ```
 
-<img src= "doc/images/rtl.png" alt="Rendering RTL" style="border: 1px solid grey;">
+![Rendering RTL](doc/images/rtl.png)
 
 ## Browser support
 
