@@ -1,5 +1,5 @@
 {
-  "name": "react-wake-lock-toggle",
+  "name": "@jgulan/react-wake-lock-toggle",
   "version": "1.0.0",
   "description": "A toggle slider React component for using the Wake Lock API.",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "babel src --out-dir dist --ignore '**/*.test.js' && cp src/*.css src/*.svg dist/"
   },
   "keywords": [],
-  "author": "",
+  "author": "J. Gulan",
   "license": "ISC",
   "dependencies": {
     "react": "^19.0.0",
@@ -41,5 +41,16 @@
     "moduleNameMapper": {
       "\\.css$": "identity-obj-proxy"
     }
-  }
+  },
+  "directories": {
+    "doc": "doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jg23497/react-wake-lock-toggle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jg23497/react-wake-lock-toggle/issues"
+  },
+  "homepage": "https://github.com/jg23497/react-wake-lock-toggle#readme"
 }
