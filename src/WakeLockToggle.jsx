@@ -1,16 +1,16 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 
 const WakeLockToggle = ({ label }) => {
-  const [wakeLockSupported, setWakeLockSupported] = useState(false);
+  const isWakeLockSupported = typeof navigator !== "undefined" && "wakeLock" in navigator;
   const [isChecked, setIsChecked] = useState(false);
   const wakeLockRef = useRef(null);
 
-  useEffect(() => {
-    setWakeLockSupported("wakeLock" in navigator);
-  }, []);
+  if (!isWakeLockSupported){
+    return null;
+  }
 
   const handleChange = async () => {
-    if (wakeLockSupported === false) {
+    if (isWakeLockSupported === false) {
       return;
     }
 
@@ -31,10 +31,6 @@ const WakeLockToggle = ({ label }) => {
 
     setIsChecked(!isChecked);
   };
-
-  if (wakeLockSupported === false) {
-    return null;
-  }
 
   return (
     <label id="wake-lock-label">
