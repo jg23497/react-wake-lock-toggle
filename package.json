@@ -6,7 +6,8 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "build": "babel src --out-dir dist --ignore '**/*.test.js' && cp src/*.css src/*.svg dist/"
+    "build": "babel src --out-dir dist --ignore '**/*.test.js' && cp src/*.css src/*.svg dist/",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "author": "J. Gulan",
